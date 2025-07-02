@@ -1,0 +1,44 @@
+/* main {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+} */
+h1 {
+  margin: 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+}
+
+/* .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    } */
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  width: 100px; /*  label cùng độ rộng để thẳng hàng */
+  font-weight: bold;
+  text-align: right;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 5px;
+}
