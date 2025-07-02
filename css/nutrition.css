@@ -1,0 +1,25 @@
+.content{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 5px;
+}
+
+article.content-item{
+    background-color: rgba(0, 128, 11, 0.233);
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.content-item-title{
+    text-align: center;
+}
+
+.content-item-footer{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 8px black;
+    border-radius: 15px 50px 30px;
+}
