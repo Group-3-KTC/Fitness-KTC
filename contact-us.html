@@ -1,39 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <img src="./img/logo.png" alt="">
-        <h1>Like Lion Fitness Center</h1>
-    </header>
-    <nav>
-        <ul style="padding-inline-start: 0;">
-            <li style="display: inline;"><a href="./home.html">Home</a></li>
-            <li style="display: inline;"><a href="./about-us.html">About us</a></li>
-            <li style="display: inline;"><a href="./classes.html">Classes</a></li>
-            <li style="display: inline;"><a href="./nutrition.html">Nutrition</a></li>
-            <li style="display: inline;"><a href="./contact-us.html">Contact us</a></li>
+    <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="./css/theme.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img class="header-logo" src="./img/logo.png" alt="" />
+      </header>
+      <nav>
+        <ul class="menu" style="padding-inline-start: 0">
+          <li class="menu-item" style="display: inline">
+            <a class="menu-item-link" href="./home.html">Home</a>
+          </li>
+          <li class="menu-item" style="display: inline">
+            <a class="menu-item-link" href="./about-us.html">About us</a>
+          </li>
+          <li class="menu-item" style="display: inline">
+            <a class="menu-item-link" href="./classes.html">Classes</a>
+          </li>
+          <li class="menu-item" style="display: inline">
+            <a class="menu-item-link" href="./nutrition.html">Nutrition</a>
+          </li>
+          <li class="menu-item" style="display: inline">
+            <a class="menu-item-link" href="./contact-us.html">Contact us</a>
+          </li>
         </ul>
-    </nav>
-    <main>
-        <div>
+      </nav>
+      <main>
+        <div class="main-content">
+          <div>
             <h1>Ready to get started? Contact us today</h1>
-            <p>We are located at:<br>
-            COBI TOWER 2, 2-4 street 8, Tan Phu <br> District 7 Ho Chi Minh city
-            </p>
+            <h1>Complete the form below to begin your free trial</h1>
+          </div>
+          <form class="form-container">
+            <div class="form-row">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" />
+            </div>
+            <div class="form-row">
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" />
+            </div>
+
+            <div class="form-group">
+              <label class="info-label">I would like information about:</label>
+
+              <div class="checkbox-line">
+                <input type="checkbox" id="groupFitness" />
+                <label for="groupFitness">Group Fitness</label>
+              </div>
+
+              <div class="checkbox-line">
+                <input type="checkbox" id="personalTraining" />
+                <label for="personalTraining">Personal Training</label>
+              </div>
+
+              <div class="checkbox-line">
+                <input type="checkbox" id="nutrition" />
+                <label for="nutrition">Nutrition</label>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="referral">Referral Source:</label>
+              <select id="referral">
+                <option>Advertisement</option>
+                <option>Friend</option>
+                <option>Online Search</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="questions">Questions?</label>
+              <textarea id="questions" rows="4" cols="30"></textarea>
+            </div>
+
+            <div class="form-row buttons">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset Form</button>
+            </div>
+
+            <div class="contact-info">
+              <p>
+                We are located at:<br />
+                COBI TOWER 2, 2-4 Street 8, Tan Phu<br />
+                District 7, Ho Chi Minh City
+              </p>
+
+              <p>
+                Phone Number<br />
+                0867 133 779
+              </p>
+
+              <p>
+                Email Address<br />
+                <a href="mailto:likelion.vn@likelion.net"
+                  >likelion.vn@likelion.net</a
+                >
+              </p>
+            </div>
+          </form>
         </div>
-        <div>
-            <p>Phone number: <br> <a href="tel:0867133779">0867133779</a></p>
-            <p>Email address: <br> <a href="mailto:likelion.vn@likelion.net">likelion.vn@likelion.net</a></p>
-        </div>
-    </main>
+      </main>
+    </div>
     <footer>
-        <p>Copyright &copy;. All Rights Reserved</p>
-        <a href="mailto:likelion.vn@likelion.net">likelion.vn@likelion.net</a>
+      <p>Copyright &copy;. All Rights Reserved</p>
+      <a href="mailto:likelion.vn@likelion.net">likelion.vn@likelion.net</a>
     </footer>
-</body>
+  </body>
 </html>
