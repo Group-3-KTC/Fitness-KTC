@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+form {
+  margin-left: 20px;
+  width: fit-content; /* Tùy chỉnh chiều rộng để gọn hơn */
+}
+.form-group {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.form-row {
+  display: flex;
+  /* margin-bottom: 12px; */
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.form-row label {
+  width: 130px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  flex: 1;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.buttons {
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.info-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.checkbox-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
