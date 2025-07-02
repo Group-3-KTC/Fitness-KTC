@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   width: 100%;
-}
+} */
 
 body {
   background: linear-gradient(to bottom, #fefffd, #fffece, #fffeab);

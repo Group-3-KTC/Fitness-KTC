@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: first baseline;
     padding: 5px;
+    min-height: 100vh;
 }
 
 article.content-item{
