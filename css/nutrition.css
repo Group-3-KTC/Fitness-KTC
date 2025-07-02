@@ -1,0 +1,41 @@
+
+html, body, div, section, main, header, footer, article, ul, li, p, a, img {
+  width: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Responsive support */
+  padding: 5px;
+  gap: 10px;
+}
+
+
+article.content-item {
+  background-color: rgba(0, 128, 11, 0.233);
+  margin: 5px;
+  padding: 10px;
+  flex: 1 1 30%;
+  max-width: 32%;
+  box-sizing: border-box;
+}
+
+
+.content-item-title{
+    text-align: center;
+}
+
+.content-item-footer {
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Softer */
+  border-radius: 15px 50px 30px;
+  margin-top: 10px;
+}
+
+li.item-list{
+    margin-left: 30px;
+}
