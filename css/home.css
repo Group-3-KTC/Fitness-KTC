@@ -1,0 +1,41 @@
+.text-intro,
+.text-body {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.text-action {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.headline {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subheadline {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.info-card {
+  display: flex;
+  max-width: 30%;
+  flex: 1 1 auto;
+  border: 10px solid #000;
+}
+
+.info-card img {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
